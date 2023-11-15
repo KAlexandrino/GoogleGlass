@@ -17,7 +17,7 @@ div#interface {
     margin: -20px auto 10px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
-
+    position: relative;
 }
 
 a {
@@ -35,9 +35,9 @@ p{
 }
 
 header#cabecalho img#icone {
-    position: absolute;
-    left: 780px;
-    top: 70px;
+    position: relative;
+    left: 730px;
+    top: -50px;
 }
 
 header#cabecalho {
@@ -103,8 +103,8 @@ nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
-    left: 300px;
+    top: -10px;
+    left: 260px;
 }
 
 nav#menu li {
@@ -187,6 +187,12 @@ table#tabelaspec td {
     padding: 10px;
 }
 
+video#video02 {
+    width:  440px;
+    margin: 0 auto;
+    display: block;
+}
+
 aside#lateral {
     display: block;
     width: 350px;
@@ -195,6 +201,11 @@ aside#lateral {
     padding: 10px;
     margin-top: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+video#video01 {
+    width: 350px;
+    margin-top: -14px;
 }
 
 aside#lateral h1 {
